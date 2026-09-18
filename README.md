@@ -12,7 +12,7 @@ sudo apt install python3-venv
 bash run-kali.sh
 ```
 
-Open **http://127.0.0.1:8765/index.html**. The first launch installs the report
+Open `http://127.0.0.1:8765/index.html`. The first launch installs the report
 libraries into `.venv`; subsequent launches work offline. Run as your regular Kali
 user. The server listens only on localhost. Stop it with Ctrl+C.
 
