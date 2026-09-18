@@ -1,0 +1,1478 @@
+{
+  "version": 1,
+  "notes": {
+    "sysRawUsers": {
+      "id": "sysRawUsers",
+      "title": "Local Users",
+      "path": "windows/users-access/local-users.md",
+      "category": "Windows \u00b7 Users & Access",
+      "fieldId": "sysRawUsers",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "sysBoxInterestingUsers": {
+      "id": "sysBoxInterestingUsers",
+      "title": "Interesting / Disabled Users",
+      "path": "windows/users-access/interesting-disabled-users.md",
+      "category": "Windows \u00b7 Users & Access",
+      "fieldId": "sysBoxInterestingUsers",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "sysRawGroups": {
+      "id": "sysRawGroups",
+      "title": "Local Groups",
+      "path": "windows/users-access/local-groups.md",
+      "category": "Windows \u00b7 Users & Access",
+      "fieldId": "sysRawGroups",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "sysBoxOsVersionFull": {
+      "id": "sysBoxOsVersionFull",
+      "title": "Operating System / Build / Architecture",
+      "path": "windows/system-information/operating-system-build-architecture.md",
+      "category": "Windows \u00b7 System Information",
+      "fieldId": "sysBoxOsVersionFull",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "sysBoxNetworkConfig": {
+      "id": "sysBoxNetworkConfig",
+      "title": "Network Configuration",
+      "path": "windows/system-information/network-configuration.md",
+      "category": "Windows \u00b7 System Information",
+      "fieldId": "sysBoxNetworkConfig",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "sysRoutes": {
+      "id": "sysRoutes",
+      "title": "Routes",
+      "path": "windows/system-information/routes.md",
+      "category": "Windows \u00b7 System Information",
+      "fieldId": "sysRoutes",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "sysArp": {
+      "id": "sysArp",
+      "title": "ARP / Neighbors",
+      "path": "windows/system-information/arp-neighbors.md",
+      "category": "Windows \u00b7 System Information",
+      "fieldId": "sysArp",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "sysListeningPorts": {
+      "id": "sysListeningPorts",
+      "title": "Listening Ports",
+      "path": "windows/system-information/listening-ports.md",
+      "category": "Windows \u00b7 System Information",
+      "fieldId": "sysListeningPorts",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "sysInterestingConnections": {
+      "id": "sysInterestingConnections",
+      "title": "Interesting Connections",
+      "path": "windows/system-information/interesting-connections.md",
+      "category": "Windows \u00b7 System Information",
+      "fieldId": "sysInterestingConnections",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "sysInstalledAppsX64": {
+      "id": "sysInstalledAppsX64",
+      "title": "Installed Applications x64",
+      "path": "windows/applications/installed-applications-x64.md",
+      "category": "Windows \u00b7 Applications",
+      "fieldId": "sysInstalledAppsX64",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "sysInstalledAppsX86": {
+      "id": "sysInstalledAppsX86",
+      "title": "Installed Applications x86 / 32-bit",
+      "path": "windows/applications/installed-applications-x86-32-bit.md",
+      "category": "Windows \u00b7 Applications",
+      "fieldId": "sysInstalledAppsX86",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "sysProcesses": {
+      "id": "sysProcesses",
+      "title": "Running Processes",
+      "path": "windows/system-information/running-processes.md",
+      "category": "Windows \u00b7 System Information",
+      "fieldId": "sysProcesses",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "sysRunningServices": {
+      "id": "sysRunningServices",
+      "title": "Running Services",
+      "path": "windows/services/running-services.md",
+      "category": "Windows \u00b7 Services",
+      "fieldId": "sysRunningServices",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "sysBoxServices": {
+      "id": "sysBoxServices",
+      "title": "Services / Security Tools",
+      "path": "windows/services/services-security-tools.md",
+      "category": "Windows \u00b7 Services",
+      "fieldId": "sysBoxServices",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "sysLinuxUsers": {
+      "id": "sysLinuxUsers",
+      "title": "Local Users",
+      "path": "linux/users-access/local-users.md",
+      "category": "Linux \u00b7 Users & Access",
+      "fieldId": "sysLinuxUsers",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxGroups": {
+      "id": "sysLinuxGroups",
+      "title": "Local Groups",
+      "path": "linux/users-access/local-groups.md",
+      "category": "Linux \u00b7 Users & Access",
+      "fieldId": "sysLinuxGroups",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxSudoers": {
+      "id": "sysLinuxSudoers",
+      "title": "Sudoers / Privilege Policy",
+      "path": "linux/users-access/sudoers-privilege-policy.md",
+      "category": "Linux \u00b7 Users & Access",
+      "fieldId": "sysLinuxSudoers",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxOsKernel": {
+      "id": "sysLinuxOsKernel",
+      "title": "Distro / Kernel / Architecture",
+      "path": "linux/system-information/distro-kernel-architecture.md",
+      "category": "Linux \u00b7 System Information",
+      "fieldId": "sysLinuxOsKernel",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxNetwork": {
+      "id": "sysLinuxNetwork",
+      "title": "Network Configuration",
+      "path": "linux/system-information/network-configuration.md",
+      "category": "Linux \u00b7 System Information",
+      "fieldId": "sysLinuxNetwork",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxRoutes": {
+      "id": "sysLinuxRoutes",
+      "title": "Routes",
+      "path": "linux/system-information/routes.md",
+      "category": "Linux \u00b7 System Information",
+      "fieldId": "sysLinuxRoutes",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxFirewall": {
+      "id": "sysLinuxFirewall",
+      "title": "Firewall State / Rules",
+      "path": "linux/system-information/firewall-state-rules.md",
+      "category": "Linux \u00b7 System Information",
+      "fieldId": "sysLinuxFirewall",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxListeningPorts": {
+      "id": "sysLinuxListeningPorts",
+      "title": "Listening Ports",
+      "path": "linux/system-information/listening-ports.md",
+      "category": "Linux \u00b7 System Information",
+      "fieldId": "sysLinuxListeningPorts",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxPackages": {
+      "id": "sysLinuxPackages",
+      "title": "Packages / Installed Software",
+      "path": "linux/system-information/packages-installed-software.md",
+      "category": "Linux \u00b7 System Information",
+      "fieldId": "sysLinuxPackages",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxProcesses": {
+      "id": "sysLinuxProcesses",
+      "title": "Processes",
+      "path": "linux/system-information/processes.md",
+      "category": "Linux \u00b7 System Information",
+      "fieldId": "sysLinuxProcesses",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxServices": {
+      "id": "sysLinuxServices",
+      "title": "Services",
+      "path": "linux/system-information/services.md",
+      "category": "Linux \u00b7 System Information",
+      "fieldId": "sysLinuxServices",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxCron": {
+      "id": "sysLinuxCron",
+      "title": "System Crontab",
+      "path": "linux/scheduled-tasks/system-crontab.md",
+      "category": "Linux \u00b7 Scheduled Tasks",
+      "fieldId": "sysLinuxCron",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxCronDirs": {
+      "id": "sysLinuxCronDirs",
+      "title": "Cron Directories",
+      "path": "linux/scheduled-tasks/cron-directories.md",
+      "category": "Linux \u00b7 Scheduled Tasks",
+      "fieldId": "sysLinuxCronDirs",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxTimers": {
+      "id": "sysLinuxTimers",
+      "title": "Systemd Timers",
+      "path": "linux/scheduled-tasks/systemd-timers.md",
+      "category": "Linux \u00b7 Scheduled Tasks",
+      "fieldId": "sysLinuxTimers",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxSuid": {
+      "id": "sysLinuxSuid",
+      "title": "SUID Binaries",
+      "path": "linux/privilege-escalation/suid-binaries.md",
+      "category": "Linux \u00b7 Privilege Escalation",
+      "fieldId": "sysLinuxSuid",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxSgid": {
+      "id": "sysLinuxSgid",
+      "title": "SGID Binaries",
+      "path": "linux/privilege-escalation/sgid-binaries.md",
+      "category": "Linux \u00b7 Privilege Escalation",
+      "fieldId": "sysLinuxSgid",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxCapabilities": {
+      "id": "sysLinuxCapabilities",
+      "title": "Capabilities",
+      "path": "linux/privilege-escalation/capabilities.md",
+      "category": "Linux \u00b7 Privilege Escalation",
+      "fieldId": "sysLinuxCapabilities",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxMountOutput": {
+      "id": "sysLinuxMountOutput",
+      "title": "Mounted Filesystems",
+      "path": "linux/storage/mounted-filesystems.md",
+      "category": "Linux \u00b7 Storage & Kernel",
+      "fieldId": "sysLinuxMountOutput",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxFstab": {
+      "id": "sysLinuxFstab",
+      "title": "fstab",
+      "path": "linux/storage/fstab.md",
+      "category": "Linux \u00b7 Storage & Kernel",
+      "fieldId": "sysLinuxFstab",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxLsblk": {
+      "id": "sysLinuxLsblk",
+      "title": "Block Devices / lsblk",
+      "path": "linux/storage/block-devices-lsblk.md",
+      "category": "Linux \u00b7 Storage & Kernel",
+      "fieldId": "sysLinuxLsblk",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxKernelModules": {
+      "id": "sysLinuxKernelModules",
+      "title": "Kernel Modules",
+      "path": "linux/storage/kernel-modules.md",
+      "category": "Linux \u00b7 Storage & Kernel",
+      "fieldId": "sysLinuxKernelModules",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysLinuxInterestingFiles": {
+      "id": "sysLinuxInterestingFiles",
+      "title": "Interesting Files / Credentials",
+      "path": "linux/privilege-escalation/interesting-files-credentials.md",
+      "category": "Linux \u00b7 Privilege Escalation",
+      "fieldId": "sysLinuxInterestingFiles",
+      "placeholders": [],
+      "executionContext": "target-linux"
+    },
+    "sysAdDomainInfo": {
+      "id": "sysAdDomainInfo",
+      "title": "Domain Information",
+      "path": "active-directory/enumeration/domain-information.md",
+      "category": "Active Directory",
+      "fieldId": "sysAdDomainInfo",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "sysAdUsers": {
+      "id": "sysAdUsers",
+      "title": "Domain Users",
+      "path": "active-directory/enumeration/domain-users.md",
+      "category": "Active Directory",
+      "fieldId": "sysAdUsers",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "sysAdGroups": {
+      "id": "sysAdGroups",
+      "title": "Domain Groups",
+      "path": "active-directory/enumeration/domain-groups.md",
+      "category": "Active Directory",
+      "fieldId": "sysAdGroups",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "sysAdComputers": {
+      "id": "sysAdComputers",
+      "title": "Domain Computers / DCs",
+      "path": "active-directory/enumeration/domain-computers-dcs.md",
+      "category": "Active Directory",
+      "fieldId": "sysAdComputers",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "sysAdSharesGpo": {
+      "id": "sysAdSharesGpo",
+      "title": "Shares / GPO / SYSVOL Loot",
+      "path": "active-directory/enumeration/shares-gpo-sysvol-loot.md",
+      "category": "Active Directory",
+      "fieldId": "sysAdSharesGpo",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "sysAdKerberos": {
+      "id": "sysAdKerberos",
+      "title": "Kerberos / SPNs / Roasting",
+      "path": "active-directory/enumeration/kerberos-spns-roasting.md",
+      "category": "Active Directory",
+      "fieldId": "sysAdKerberos",
+      "placeholders": [],
+      "executionContext": "target-windows"
+    },
+    "dynamic.user-groups": {
+      "id": "dynamic.user-groups",
+      "title": "User Group Memberships",
+      "path": "windows/generated/user-group-memberships.md",
+      "category": "Windows \u00b7 Generated Follow-up",
+      "dynamicKind": "user-groups",
+      "placeholders": [
+        "entity"
+      ],
+      "executionContext": "target-windows"
+    },
+    "dynamic.user-privileges": {
+      "id": "dynamic.user-privileges",
+      "title": "Token Privileges",
+      "path": "windows/generated/token-privileges.md",
+      "category": "Windows \u00b7 Generated Follow-up",
+      "dynamicKind": "user-privileges",
+      "placeholders": [
+        "entity"
+      ],
+      "executionContext": "target-windows"
+    },
+    "dynamic.group-members": {
+      "id": "dynamic.group-members",
+      "title": "Group Members",
+      "path": "windows/generated/group-members.md",
+      "category": "Windows \u00b7 Generated Follow-up",
+      "dynamicKind": "group-members",
+      "placeholders": [
+        "entity"
+      ],
+      "executionContext": "target-windows"
+    },
+    "dynamic.principal-notes": {
+      "id": "dynamic.principal-notes",
+      "title": "Principal Access Follow-up",
+      "path": "windows/generated/principal-access-follow-up.md",
+      "category": "Windows \u00b7 Generated Follow-up",
+      "dynamicKind": "principal-notes",
+      "placeholders": [
+        "entity"
+      ],
+      "executionContext": "target-windows"
+    },
+    "dynamic.linux-user-groups": {
+      "id": "dynamic.linux-user-groups",
+      "title": "Linux User Groups",
+      "path": "linux/generated/user-groups.md",
+      "category": "Linux \u00b7 Generated Follow-up",
+      "dynamicKind": "linux-user-groups",
+      "placeholders": [
+        "entity"
+      ],
+      "executionContext": "target-linux"
+    },
+    "dynamic.linux-environment-variables": {
+      "id": "dynamic.linux-environment-variables",
+      "title": "Environment Variables",
+      "path": "linux/generated/environment-variables.md",
+      "category": "Linux \u00b7 Generated Follow-up",
+      "dynamicKind": "linux-environment-variables",
+      "placeholders": [
+        "entity"
+      ],
+      "executionContext": "target-linux"
+    },
+    "dynamic.linux-sudo-permissions": {
+      "id": "dynamic.linux-sudo-permissions",
+      "title": "Sudo Permissions",
+      "path": "linux/generated/sudo-permissions.md",
+      "category": "Linux \u00b7 Generated Follow-up",
+      "dynamicKind": "linux-sudo-permissions",
+      "placeholders": [
+        "entity"
+      ],
+      "executionContext": "target-linux"
+    },
+    "dynamic.linux-user-crontab": {
+      "id": "dynamic.linux-user-crontab",
+      "title": "User Crontab",
+      "path": "linux/generated/user-crontab.md",
+      "category": "Linux \u00b7 Generated Follow-up",
+      "dynamicKind": "linux-user-crontab",
+      "placeholders": [
+        "entity"
+      ],
+      "executionContext": "target-linux"
+    },
+    "dynamic.linux-writable-directories": {
+      "id": "dynamic.linux-writable-directories",
+      "title": "Writable Directories",
+      "path": "linux/generated/writable-directories.md",
+      "category": "Linux \u00b7 Generated Follow-up",
+      "dynamicKind": "linux-writable-directories",
+      "placeholders": [
+        "entity",
+        "home"
+      ],
+      "executionContext": "target-linux"
+    },
+    "dynamic.linux-writable-files": {
+      "id": "dynamic.linux-writable-files",
+      "title": "Writable Files",
+      "path": "linux/generated/writable-files.md",
+      "category": "Linux \u00b7 Generated Follow-up",
+      "dynamicKind": "linux-writable-files",
+      "placeholders": [
+        "entity",
+        "home"
+      ],
+      "executionContext": "target-linux"
+    },
+    "dynamic.linux-credential-candidates": {
+      "id": "dynamic.linux-credential-candidates",
+      "title": "Credential Candidates",
+      "path": "linux/generated/credential-candidates.md",
+      "category": "Linux \u00b7 Generated Follow-up",
+      "dynamicKind": "linux-credential-candidates",
+      "placeholders": [
+        "entity",
+        "home"
+      ],
+      "executionContext": "target-linux"
+    },
+    "dynamic.linux-user-files": {
+      "id": "dynamic.linux-user-files",
+      "title": "User Files / Home Loot",
+      "path": "linux/generated/user-files-home-loot.md",
+      "category": "Linux \u00b7 Generated Follow-up",
+      "dynamicKind": "linux-user-files",
+      "placeholders": [
+        "entity",
+        "home"
+      ],
+      "executionContext": "target-linux"
+    },
+    "dynamic.linux-group-members": {
+      "id": "dynamic.linux-group-members",
+      "title": "Linux Group Members",
+      "path": "linux/generated/group-members.md",
+      "category": "Linux \u00b7 Generated Follow-up",
+      "dynamicKind": "linux-group-members",
+      "placeholders": [
+        "entity"
+      ],
+      "executionContext": "target-linux"
+    },
+    "dynamic.linux-kernel-module-info": {
+      "id": "dynamic.linux-kernel-module-info",
+      "title": "Kernel Module Information",
+      "path": "linux/generated/kernel-module-information.md",
+      "category": "Linux \u00b7 Generated Follow-up",
+      "dynamicKind": "linux-kernel-module-info",
+      "placeholders": [
+        "entity"
+      ],
+      "executionContext": "target-linux"
+    },
+    "dynamic.port-notes": {
+      "id": "dynamic.port-notes",
+      "title": "Port / Service Follow-up",
+      "path": "windows/generated/port-service-follow-up.md",
+      "category": "Windows \u00b7 Generated Follow-up",
+      "dynamicKind": "port-notes",
+      "placeholders": [
+        "entity"
+      ],
+      "executionContext": "target-windows"
+    },
+    "dynamic.app-notes": {
+      "id": "dynamic.app-notes",
+      "title": "Application Follow-up",
+      "path": "windows/generated/application-follow-up.md",
+      "category": "Windows \u00b7 Generated Follow-up",
+      "dynamicKind": "app-notes",
+      "placeholders": [
+        "entity"
+      ],
+      "executionContext": "target-windows"
+    },
+    "dynamic.linux-home-loot-file": {
+      "id": "dynamic.linux-home-loot-file",
+      "title": "Home Loot File",
+      "path": "linux/generated/home-loot-file.md",
+      "category": "Linux \u00b7 Generated Follow-up",
+      "dynamicKind": "linux-home-loot-file",
+      "placeholders": [
+        "user",
+        "path",
+        "quoted_path"
+      ],
+      "executionContext": "target-linux"
+    },
+    "recon.scan.port": {
+      "id": "recon.scan.port",
+      "title": "Port Scan",
+      "path": "recon/scan-port.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap_tcp",
+        "target"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.scan.tcp": {
+      "id": "recon.scan.tcp",
+      "title": "Nmap Service Scan",
+      "path": "recon/scan-tcp.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap_tcp",
+        "open_ports",
+        "target"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.scan.udp": {
+      "id": "recon.scan.udp",
+      "title": "UDP Scan",
+      "path": "recon/scan-udp.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap_udp",
+        "target"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.web.directory_discovery": {
+      "id": "recon.web.directory_discovery",
+      "title": "WEB \u00b7 Directory Discovery",
+      "path": "recon/web-directory-discovery.md",
+      "category": "Recon",
+      "placeholders": [
+        "url",
+        "url_fuzz"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.web.technologies_headers": {
+      "id": "recon.web.technologies_headers",
+      "title": "WEB \u00b7 Technologies & Headers",
+      "path": "recon/web-technologies-headers.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport",
+        "url"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.web.virtual_hosts": {
+      "id": "recon.web.virtual_hosts",
+      "title": "WEB \u00b7 Virtual Hosts & Names",
+      "path": "recon/web-virtual-hosts.md",
+      "category": "Recon",
+      "placeholders": [
+        "url"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.web.interesting_pages": {
+      "id": "recon.web.interesting_pages",
+      "title": "WEB \u00b7 Interesting Pages & Parameters",
+      "path": "recon/web-interesting-pages.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport",
+        "url_robots",
+        "url_sitemap"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.web.findings_loot": {
+      "id": "recon.web.findings_loot",
+      "title": "WEB \u00b7 Findings / Loot",
+      "path": "recon/web-findings-loot.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport",
+        "url_path"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.smb.shares": {
+      "id": "recon.smb.shares",
+      "title": "SMB \u00b7 Shares & Access",
+      "path": "recon/smb-shares.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.smb.users_groups": {
+      "id": "recon.smb.users_groups",
+      "title": "SMB \u00b7 Users & Groups",
+      "path": "recon/smb-users-groups.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.smb.configuration": {
+      "id": "recon.smb.configuration",
+      "title": "SMB \u00b7 Server & Security Settings",
+      "path": "recon/smb-configuration.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.smb.files_loot": {
+      "id": "recon.smb.files_loot",
+      "title": "SMB \u00b7 Files / Loot",
+      "path": "recon/smb-files-loot.md",
+      "category": "Recon",
+      "placeholders": [
+        "port",
+        "smb_share",
+        "target"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.ssh.banner": {
+      "id": "recon.ssh.banner",
+      "title": "SSH \u00b7 Banner & Host Keys",
+      "path": "recon/ssh-banner.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.ssh.authentication": {
+      "id": "recon.ssh.authentication",
+      "title": "SSH \u00b7 Authentication Findings",
+      "path": "recon/ssh-authentication.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "ssh_target",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.ssh.notes": {
+      "id": "recon.ssh.notes",
+      "title": "SSH \u00b7 Notes / Loot",
+      "path": "recon/ssh-notes.md",
+      "category": "Recon",
+      "placeholders": [
+        "port",
+        "ssh_target"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.ftp.banner": {
+      "id": "recon.ftp.banner",
+      "title": "FTP \u00b7 Banner & Capabilities",
+      "path": "recon/ftp-banner.md",
+      "category": "Recon",
+      "placeholders": [
+        "ftp_url",
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.ftp.access": {
+      "id": "recon.ftp.access",
+      "title": "FTP \u00b7 Anonymous / Account Access",
+      "path": "recon/ftp-access.md",
+      "category": "Recon",
+      "placeholders": [
+        "ftp_url",
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.ftp.files_loot": {
+      "id": "recon.ftp.files_loot",
+      "title": "FTP \u00b7 Files & Permissions",
+      "path": "recon/ftp-files-loot.md",
+      "category": "Recon",
+      "placeholders": [
+        "ftp_path",
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.dns.records": {
+      "id": "recon.dns.records",
+      "title": "DNS \u00b7 Records",
+      "path": "recon/dns-records.md",
+      "category": "Recon",
+      "placeholders": [
+        "port",
+        "target"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.dns.zone_transfer": {
+      "id": "recon.dns.zone_transfer",
+      "title": "DNS \u00b7 Zone Transfer",
+      "path": "recon/dns-zone-transfer.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.dns.names": {
+      "id": "recon.dns.names",
+      "title": "DNS \u00b7 Hostnames & Subdomains",
+      "path": "recon/dns-names.md",
+      "category": "Recon",
+      "placeholders": [
+        "port",
+        "target"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.snmp.access": {
+      "id": "recon.snmp.access",
+      "title": "SNMP \u00b7 Community / Access",
+      "path": "recon/snmp-access.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "snmp_target",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.snmp.walk": {
+      "id": "recon.snmp.walk",
+      "title": "SNMP \u00b7 Walk",
+      "path": "recon/snmp-walk.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "snmp_target",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.snmp.users_processes": {
+      "id": "recon.snmp.users_processes",
+      "title": "SNMP \u00b7 Users, Processes & Interfaces",
+      "path": "recon/snmp-users-processes.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "snmp_target",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.ldap.directory": {
+      "id": "recon.ldap.directory",
+      "title": "LDAP \u00b7 Directory Information",
+      "path": "recon/ldap-directory.md",
+      "category": "Recon",
+      "placeholders": [
+        "ldap_url",
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.ldap.users_groups": {
+      "id": "recon.ldap.users_groups",
+      "title": "LDAP \u00b7 Users & Groups",
+      "path": "recon/ldap-users-groups.md",
+      "category": "Recon",
+      "placeholders": [
+        "ldap_url",
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.ldap.access": {
+      "id": "recon.ldap.access",
+      "title": "LDAP \u00b7 Access & Interesting Attributes",
+      "path": "recon/ldap-access.md",
+      "category": "Recon",
+      "placeholders": [
+        "ldap_url"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.kerberos.principals": {
+      "id": "recon.kerberos.principals",
+      "title": "Kerberos \u00b7 Principals & Domain",
+      "path": "recon/kerberos-principals.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.kerberos.tickets": {
+      "id": "recon.kerberos.tickets",
+      "title": "Kerberos \u00b7 Ticket / Account Findings",
+      "path": "recon/kerberos-tickets.md",
+      "category": "Recon",
+      "placeholders": [
+        "target"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.kerberos.notes": {
+      "id": "recon.kerberos.notes",
+      "title": "Kerberos \u00b7 Notes",
+      "path": "recon/kerberos-notes.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.nfs.exports": {
+      "id": "recon.nfs.exports",
+      "title": "NFS \u00b7 Exports",
+      "path": "recon/nfs-exports.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.nfs.permissions": {
+      "id": "recon.nfs.permissions",
+      "title": "NFS \u00b7 Access & Permissions",
+      "path": "recon/nfs-permissions.md",
+      "category": "Recon",
+      "placeholders": [
+        "nfs_export",
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.nfs.files_loot": {
+      "id": "recon.nfs.files_loot",
+      "title": "NFS \u00b7 Files / Loot",
+      "path": "recon/nfs-files-loot.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.mail.banner": {
+      "id": "recon.mail.banner",
+      "title": "MAIL \u00b7 Banner & Capabilities",
+      "path": "recon/mail-banner.md",
+      "category": "Recon",
+      "placeholders": [
+        "mail_url",
+        "nmap",
+        "port",
+        "target",
+        "target_port",
+        "tls_options",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.mail.users": {
+      "id": "recon.mail.users",
+      "title": "MAIL \u00b7 Users & Access",
+      "path": "recon/mail-users.md",
+      "category": "Recon",
+      "placeholders": [
+        "mail_request",
+        "mail_url",
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.mail.notes": {
+      "id": "recon.mail.notes",
+      "title": "MAIL \u00b7 Notes / Loot",
+      "path": "recon/mail-notes.md",
+      "category": "Recon",
+      "placeholders": [
+        "mail_request",
+        "mail_url",
+        "target_port",
+        "tls_options"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.mssql.version": {
+      "id": "recon.mssql.version",
+      "title": "MSSQL \u00b7 Version & Configuration",
+      "path": "recon/mssql-version.md",
+      "category": "Recon",
+      "placeholders": [
+        "mssql_server",
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.mssql.access": {
+      "id": "recon.mssql.access",
+      "title": "MSSQL \u00b7 Access & Privileges",
+      "path": "recon/mssql-access.md",
+      "category": "Recon",
+      "placeholders": [
+        "mssql_server",
+        "port",
+        "sql_target"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.mssql.databases": {
+      "id": "recon.mssql.databases",
+      "title": "MSSQL \u00b7 Databases, Tables & Data",
+      "path": "recon/mssql-databases.md",
+      "category": "Recon",
+      "placeholders": [
+        "mssql_server",
+        "port",
+        "sql_target"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.mssql.files_loot": {
+      "id": "recon.mssql.files_loot",
+      "title": "MSSQL \u00b7 Files / Loot",
+      "path": "recon/mssql-files-loot.md",
+      "category": "Recon",
+      "placeholders": [
+        "mssql_server",
+        "port",
+        "sql_target"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.mysql.version": {
+      "id": "recon.mysql.version",
+      "title": "MySQL \u00b7 Version & Configuration",
+      "path": "recon/mysql-version.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.mysql.access": {
+      "id": "recon.mysql.access",
+      "title": "MySQL \u00b7 Access & Privileges",
+      "path": "recon/mysql-access.md",
+      "category": "Recon",
+      "placeholders": [
+        "port",
+        "target"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.mysql.databases": {
+      "id": "recon.mysql.databases",
+      "title": "MySQL \u00b7 Databases, Tables & Data",
+      "path": "recon/mysql-databases.md",
+      "category": "Recon",
+      "placeholders": [
+        "port",
+        "target"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.mysql.files_loot": {
+      "id": "recon.mysql.files_loot",
+      "title": "MySQL \u00b7 Files / Loot",
+      "path": "recon/mysql-files-loot.md",
+      "category": "Recon",
+      "placeholders": [
+        "port",
+        "target"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.postgresql.version": {
+      "id": "recon.postgresql.version",
+      "title": "PostgreSQL \u00b7 Version & Configuration",
+      "path": "recon/postgresql-version.md",
+      "category": "Recon",
+      "placeholders": [
+        "port",
+        "postgres_conn",
+        "target"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.postgresql.access": {
+      "id": "recon.postgresql.access",
+      "title": "PostgreSQL \u00b7 Access & Privileges",
+      "path": "recon/postgresql-access.md",
+      "category": "Recon",
+      "placeholders": [
+        "postgres_conn",
+        "target_port"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.postgresql.databases": {
+      "id": "recon.postgresql.databases",
+      "title": "PostgreSQL \u00b7 Databases, Tables & Data",
+      "path": "recon/postgresql-databases.md",
+      "category": "Recon",
+      "placeholders": [
+        "postgres_conn"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.postgresql.files_loot": {
+      "id": "recon.postgresql.files_loot",
+      "title": "PostgreSQL \u00b7 Files / Loot",
+      "path": "recon/postgresql-files-loot.md",
+      "category": "Recon",
+      "placeholders": [
+        "postgres_conn"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.redis.version": {
+      "id": "recon.redis.version",
+      "title": "Redis \u00b7 Version & Configuration",
+      "path": "recon/redis-version.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.redis.access": {
+      "id": "recon.redis.access",
+      "title": "Redis \u00b7 Access & Privileges",
+      "path": "recon/redis-access.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.redis.databases": {
+      "id": "recon.redis.databases",
+      "title": "Redis \u00b7 Databases, Tables & Data",
+      "path": "recon/redis-databases.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.redis.files_loot": {
+      "id": "recon.redis.files_loot",
+      "title": "Redis \u00b7 Files / Loot",
+      "path": "recon/redis-files-loot.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.mongodb.version": {
+      "id": "recon.mongodb.version",
+      "title": "MongoDB \u00b7 Version & Configuration",
+      "path": "recon/mongodb-version.md",
+      "category": "Recon",
+      "placeholders": [
+        "mongo_uri",
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.mongodb.access": {
+      "id": "recon.mongodb.access",
+      "title": "MongoDB \u00b7 Access & Privileges",
+      "path": "recon/mongodb-access.md",
+      "category": "Recon",
+      "placeholders": [
+        "mongo_uri",
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.mongodb.databases": {
+      "id": "recon.mongodb.databases",
+      "title": "MongoDB \u00b7 Databases, Tables & Data",
+      "path": "recon/mongodb-databases.md",
+      "category": "Recon",
+      "placeholders": [
+        "mongo_uri",
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.mongodb.files_loot": {
+      "id": "recon.mongodb.files_loot",
+      "title": "MongoDB \u00b7 Files / Loot",
+      "path": "recon/mongodb-files-loot.md",
+      "category": "Recon",
+      "placeholders": [
+        "mongo_uri"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.rdp.service_info": {
+      "id": "recon.rdp.service_info",
+      "title": "RDP \u00b7 Service Information",
+      "path": "recon/rdp-service-info.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "rdp_target",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.rdp.access": {
+      "id": "recon.rdp.access",
+      "title": "RDP \u00b7 Access Findings",
+      "path": "recon/rdp-access.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "rdp_target",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.rdp.notes": {
+      "id": "recon.rdp.notes",
+      "title": "RDP \u00b7 Notes / Loot",
+      "path": "recon/rdp-notes.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "rdp_target",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.winrm.service_info": {
+      "id": "recon.winrm.service_info",
+      "title": "WinRM \u00b7 Service Information",
+      "path": "recon/winrm-service-info.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport",
+        "url_wsman"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.winrm.access": {
+      "id": "recon.winrm.access",
+      "title": "WinRM \u00b7 Access Findings",
+      "path": "recon/winrm-access.md",
+      "category": "Recon",
+      "placeholders": [
+        "port",
+        "target",
+        "url_wsman",
+        "winrm_tls"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.winrm.notes": {
+      "id": "recon.winrm.notes",
+      "title": "WinRM \u00b7 Notes / Loot",
+      "path": "recon/winrm-notes.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport",
+        "url_wsman"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.vnc.service_info": {
+      "id": "recon.vnc.service_info",
+      "title": "VNC \u00b7 Service Information",
+      "path": "recon/vnc-service-info.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.vnc.access": {
+      "id": "recon.vnc.access",
+      "title": "VNC \u00b7 Access Findings",
+      "path": "recon/vnc-access.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport",
+        "vnc_target"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.vnc.notes": {
+      "id": "recon.vnc.notes",
+      "title": "VNC \u00b7 Notes / Loot",
+      "path": "recon/vnc-notes.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "transport",
+        "vnc_target"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.other.service_info": {
+      "id": "recon.other.service_info",
+      "title": "Service Information",
+      "path": "recon/other-service-info.md",
+      "category": "Recon",
+      "placeholders": [
+        "nc_udp",
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.other.enumeration": {
+      "id": "recon.other.enumeration",
+      "title": "Service Enumeration",
+      "path": "recon/other-enumeration.md",
+      "category": "Recon",
+      "placeholders": [
+        "nc_udp",
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.other.notes": {
+      "id": "recon.other.notes",
+      "title": "Service Notes / Loot",
+      "path": "recon/other-notes.md",
+      "category": "Recon",
+      "placeholders": [
+        "nc_udp",
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.service": {
+      "id": "recon.service",
+      "title": "Custom Service Output",
+      "path": "recon/service.md",
+      "category": "Recon",
+      "placeholders": [
+        "nc_udp",
+        "nmap",
+        "port",
+        "target",
+        "transport"
+      ],
+      "executionContext": "kali"
+    },
+    "recon.tls": {
+      "id": "recon.tls",
+      "title": "TLS \u00b7 Certificates & Configuration",
+      "path": "recon/tls.md",
+      "category": "Recon",
+      "placeholders": [
+        "nmap",
+        "port",
+        "target",
+        "target_port",
+        "tls_options",
+        "transport"
+      ],
+      "executionContext": "kali"
+    }
+  }
+}
