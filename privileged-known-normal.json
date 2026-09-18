@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "description": "Known/common privileged entries to mute in SUID, SGID, and capabilities previews. These lines remain visible but are greyed out for triage.",
+    "schema_version": 1,
+    "note": "Add to these lists over time. Prefer exact basenames or full paths over broad group/capability rules."
+  },
+  "suid": {
+    "basenames": [
+      "chfn",
+      "chsh",
+      "fusermount",
+      "gpasswd",
+      "mount",
+      "newgrp",
+      "ntfs-3g",
+      "passwd",
+      "pkexec",
+      "su",
+      "sudo",
+      "umount"
+    ],
+    "paths": []
+  },
+  "sgid": {
+    "basenames": [
+      "bsd-write",
+      "chage",
+      "crontab",
+      "expiry",
+      "ssh-agent",
+      "unix_chkpwd",
+      "utempter",
+      "wall"
+    ],
+    "paths": [],
+    "groups": [
+      "tty",
+      "utmp"
+    ]
+  },
+  "capabilities": {
+    "basenames": [
+      "ping"
+    ],
+    "paths": [
+      "/bin/ping",
+      "/usr/bin/ping"
+    ],
+    "capabilities": []
+  }
+}

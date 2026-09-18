@@ -1,0 +1,7 @@
+Put clean baseline files here when you want Find Diff to work.
+
+Examples:
+  home-loot-baselines/.bashrc
+  home-loot-baselines/.profile
+
+Then map them in linux-home-loot-auto-files.json under diff_baselines.

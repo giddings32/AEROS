@@ -1,0 +1,117 @@
+/* =========================================================
+   AEROS V1 - application styles
+   Includes base CSS + note banner fixes + credentials/system info/movement CSS
+   Replace style.css with this file. Do not append old snippets after replacing.
+   ========================================================= */
+
+:root {
+  --glow-rgb:0,184,255; --accent-rgb:0,184,255; --accent-bright-rgb:35,216,255; --accent-deep-rgb:0,112,162; --accent-soft-rgb:42,85,112; --accent2-rgb:35,217,198;
+  --accent-bright:#23d8ff; --accent-text:#7de8ff; --muted-rgb:142,166,184; --text-rgb:232,241,248; --hl:#e8f1f8;
+  --d1:#06111a; --d2-rgb:6,17,26; --d3-rgb:6,17,27; --d4-rgb:8,22,34; --d5-rgb:10,25,38; --d6-rgb:12,27,42; --d7-rgb:14,32,48;
+  --bg:#06111b; --panel:#0c1b2a; --border:#1e3b50; --border-strong:#2a5570;
+  --text:#e8f1f8; --muted:#8ea6b8; --muted-2:#63798c; --accent:#00b8ff; --accent-2:#23d9c6; --danger:#ff5c6c;
+  --surface-canvas:#06111b;
+  --surface-primary:#0c1b2a;
+  --surface-secondary:#0a1926;
+  --surface-inset:#06111a;
+  --surface-raised:#081622;
+  --line-subtle:#173044;
+  --line-default:#1e3b50;
+  --line-strong:#2a5570;
+  --text-primary:#e8f1f8;
+  --text-secondary:#8ea6b8;
+  --text-tertiary:#63798c;
+  --interactive-accent:#00b8ff;
+  --interactive-accent-bright:#23d8ff;
+  --status-good:#2dd489;
+  --status-good-bg:#0e2b22;
+  --status-good-line:#1f634b;
+  --status-warn:#f4b942;
+  --status-warn-bg:#302711;
+  --status-warn-line:#6f5b24;
+  --status-bad:#ff5c6c;
+  --status-purple:#9c6cff;
+  --status-teal:#23d9c6;
+  --shadow:0 18px 60px rgba(0,0,0,.35); --radius:18px; --radius-sm:10px;
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --mono:"Cascadia Code","Consolas",ui-monospace,SFMono-Regular,"Liberation Mono",monospace;
+}
+
+/* Color themes: override tokens; every accent/glow/border/base usage resolves
+   through these variables, so the whole UI re-skins from just these overrides.
+   --danger stays red and existing greens stay green in every theme. */
+:root[data-theme="joker"]{
+  /* Original green-on-purple Matrix palette, preserved as the Joker theme. */
+  --accent:#20C20E; --accent-2:#35e01f; --accent-bright:#35e01f; --accent-text:#4dff3b;
+  --glow-rgb:32,194,14; --accent-rgb:32,194,14; --accent-bright-rgb:32,194,14;
+  --accent-deep-rgb:32,194,14; --accent-soft-rgb:32,194,14; --accent2-rgb:32,194,14;
+  --text:#f2f4f6; --text-rgb:242,244,246; --hl:#f2f4f6;
+  --muted:#8f9296; --muted-2:#63676c; --muted-rgb:140,142,146;
+  --bg:#161219; --panel:#1e1823; --d1:#0e0b11;
+  --d2-rgb:16,12,20; --d3-rgb:20,16,25; --d4-rgb:22,18,25; --d5-rgb:26,20,31; --d6-rgb:30,24,35; --d7-rgb:36,29,43;
+  --surface-canvas:var(--bg); --surface-primary:var(--panel); --surface-secondary:rgb(var(--d5-rgb)); --surface-inset:rgb(var(--d2-rgb)); --surface-raised:rgb(var(--d4-rgb));
+  --line-subtle:color-mix(in srgb,var(--accent) 18%,var(--panel)); --line-default:color-mix(in srgb,var(--accent) 28%,var(--panel)); --line-strong:color-mix(in srgb,var(--accent) 42%,var(--panel));
+  --border:var(--line-default); --border-strong:var(--line-strong);
+  --text-primary:var(--text); --text-secondary:var(--muted); --text-tertiary:var(--muted-2); --interactive-accent:var(--accent); --interactive-accent-bright:var(--accent-bright);
+}
+
+:root[data-theme="matrix"]{
+  /* Matrix: bright terminal green over a true black / neutral charcoal base. */
+  --accent:#20C20E; --accent-2:#35e01f; --accent-bright:#35e01f; --accent-text:#4dff3b;
+  --glow-rgb:32,194,14; --accent-rgb:32,194,14; --accent-bright-rgb:32,194,14;
+  --accent-deep-rgb:32,194,14; --accent-soft-rgb:32,194,14; --accent2-rgb:32,194,14;
+  --text:#f2f4f6; --text-rgb:242,244,246; --hl:#f2f4f6;
+  --muted:#949894; --muted-2:#676b67; --muted-rgb:145,149,145;
+  --bg:#000000; --panel:#080808; --d1:#000000;
+  --d2-rgb:2,2,2; --d3-rgb:5,5,5; --d4-rgb:8,8,8; --d5-rgb:11,11,11; --d6-rgb:14,14,14; --d7-rgb:18,18,18;
+  --surface-canvas:var(--bg); --surface-primary:var(--panel); --surface-secondary:rgb(var(--d5-rgb)); --surface-inset:rgb(var(--d2-rgb)); --surface-raised:rgb(var(--d4-rgb));
+  --line-subtle:color-mix(in srgb,var(--accent) 18%,var(--panel)); --line-default:color-mix(in srgb,var(--accent) 28%,var(--panel)); --line-strong:color-mix(in srgb,var(--accent) 42%,var(--panel));
+  --border:var(--line-default); --border-strong:var(--line-strong);
+  --text-primary:var(--text); --text-secondary:var(--muted); --text-tertiary:var(--muted-2); --interactive-accent:var(--accent); --interactive-accent-bright:var(--accent-bright);
+}
+
+
+:root[data-theme="deep-sea"]{
+  /* Deep Sea: bioluminescent aqua over midnight navy and trench-black panels. */
+  --accent:#00d9c7; --accent-2:#42f5e6; --accent-bright:#7dfff4; --accent-text:#9bfff7;
+  --glow-rgb:0,217,199; --accent-rgb:0,217,199; --accent-bright-rgb:125,255,244;
+  --accent-deep-rgb:0,104,128; --accent-soft-rgb:55,198,215; --accent2-rgb:66,245,230;
+  --text:#e5fffd; --text-rgb:229,255,253; --hl:#d9fffb;
+  --muted:#82aaa9; --muted-2:#557b7d; --muted-rgb:130,170,169;
+  --bg:#020b11; --panel:#071821; --d1:#01070c;
+  --d2-rgb:2,10,16; --d3-rgb:4,17,24; --d4-rgb:5,23,32; --d5-rgb:7,29,40; --d6-rgb:9,36,48; --d7-rgb:12,45,58;
+  --surface-canvas:var(--bg); --surface-primary:var(--panel); --surface-secondary:rgb(var(--d5-rgb)); --surface-inset:rgb(var(--d2-rgb)); --surface-raised:rgb(var(--d4-rgb));
+  --line-subtle:color-mix(in srgb,var(--accent) 18%,var(--panel)); --line-default:color-mix(in srgb,var(--accent) 28%,var(--panel)); --line-strong:color-mix(in srgb,var(--accent) 42%,var(--panel));
+  --border:var(--line-default); --border-strong:var(--line-strong);
+  --text-primary:var(--text); --text-secondary:var(--muted); --text-tertiary:var(--muted-2); --interactive-accent:var(--accent); --interactive-accent-bright:var(--accent-bright);
+}
+
+:root[data-theme="kraken"]{
+  /* Kraken: ultraviolet and magenta bioluminescence over deep indigo-black. */
+  --accent:#a855f7; --accent-2:#d05cff; --accent-bright:#e879ff; --accent-text:#efb0ff;
+  --glow-rgb:168,85,247; --accent-rgb:168,85,247; --accent-bright-rgb:232,121,255;
+  --accent-deep-rgb:101,36,176; --accent-soft-rgb:194,111,255; --accent2-rgb:208,92,255;
+  --text:#fbf4ff; --text-rgb:251,244,255; --hl:#f7e8ff;
+  --muted:#a995b8; --muted-2:#756482; --muted-rgb:169,149,184;
+  --bg:#090611; --panel:#130c1d; --d1:#050308;
+  --d2-rgb:10,6,16; --d3-rgb:16,9,25; --d4-rgb:21,12,33; --d5-rgb:27,15,42; --d6-rgb:34,19,51; --d7-rgb:43,24,63;
+  --surface-canvas:var(--bg); --surface-primary:var(--panel); --surface-secondary:rgb(var(--d5-rgb)); --surface-inset:rgb(var(--d2-rgb)); --surface-raised:rgb(var(--d4-rgb));
+  --line-subtle:color-mix(in srgb,var(--accent) 18%,var(--panel)); --line-default:color-mix(in srgb,var(--accent) 28%,var(--panel)); --line-strong:color-mix(in srgb,var(--accent) 42%,var(--panel));
+  --border:var(--line-default); --border-strong:var(--line-strong);
+  --text-primary:var(--text); --text-secondary:var(--muted); --text-tertiary:var(--muted-2); --interactive-accent:var(--accent); --interactive-accent-bright:var(--accent-bright);
+}
+
+:root[data-theme="ember"]{
+  /* Ember: molten amber over a neutral coal-black base. */
+  --accent:#ff8a1f; --accent-2:#ffb347; --accent-bright:#ffc261; --accent-text:#ffd39a;
+  --glow-rgb:255,138,31; --accent-rgb:255,138,31; --accent-bright-rgb:255,194,97;
+  --accent-deep-rgb:191,72,0; --accent-soft-rgb:255,166,76; --accent2-rgb:255,179,71;
+  --text:#fff7ed; --text-rgb:255,247,237; --hl:#fff0d7;
+  --muted:#b3a08e; --muted-2:#7f6d5e; --muted-rgb:179,160,142;
+  --bg:#0d0906; --panel:#19110b; --d1:#070403;
+  --d2-rgb:13,8,5; --d3-rgb:20,12,7; --d4-rgb:26,15,9; --d5-rgb:33,19,11; --d6-rgb:41,24,14; --d7-rgb:51,30,17;
+  --surface-canvas:var(--bg); --surface-primary:var(--panel); --surface-secondary:rgb(var(--d5-rgb)); --surface-inset:rgb(var(--d2-rgb)); --surface-raised:rgb(var(--d4-rgb));
+  --line-subtle:color-mix(in srgb,var(--accent) 18%,var(--panel)); --line-default:color-mix(in srgb,var(--accent) 28%,var(--panel)); --line-strong:color-mix(in srgb,var(--accent) 42%,var(--panel));
+  --border:var(--line-default); --border-strong:var(--line-strong);
+  --text-primary:var(--text); --text-secondary:var(--muted); --text-tertiary:var(--muted-2); --interactive-accent:var(--accent); --interactive-accent-bright:var(--accent-bright);
+}

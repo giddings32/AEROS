@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "description": "Suppress Binary Contexts SUID-like SGID review matches for known noisy SGID binaries.",
+    "schema_version": 1
+  },
+  "ignore_basenames": [
+    "ssh-agent",
+    "wall",
+    "crontab",
+    "chage",
+    "expiry",
+    "bsd-write",
+    "unix_chkpwd"
+  ],
+  "ignore_paths": [
+    "/usr/bin/ssh-agent"
+  ],
+  "ignore_groups": [
+    "tty",
+    "utmp"
+  ]
+}

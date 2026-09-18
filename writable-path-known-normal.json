@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "description": "Grey-out known normal writable-path noise without hiding the raw evidence. Used only by Linux Writable Directories / Writable Files previews.",
+    "schema_version": 1
+  },
+  "path_prefixes": [
+    "/run/cloud-init/tmp",
+    "/run/lock"
+  ],
+  "path_parts": [
+    "node_modules",
+    "__pycache__",
+    ".cache",
+    ".git",
+    ".pytest_cache",
+    "bower_components",
+    "vendor",
+    "dist",
+    "build"
+  ],
+  "patterns": []
+}
